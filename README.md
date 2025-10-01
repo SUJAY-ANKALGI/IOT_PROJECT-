@@ -21,7 +21,7 @@ The ACS712 outputs a voltage proportional to the measured current.
 A voltage divider scales the input voltage into Arduino’s 0–5 V ADC range.
 The Arduino reads both analog signals, applies calibration, and prints the Voltage (V) and Current (A) to Serial Monitor.
 
-Code :
+🖥️ Code :
 
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
